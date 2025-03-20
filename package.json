@@ -37,7 +37,6 @@
     "type": "git",
     "url": "https://github.com/git-chroma-studio/lummaquery.git"
   },
-  "devDependencies": {},
   "dependencies": {
     "@rollup/plugin-commonjs": "^28.0.3",
     "@rollup/plugin-node-resolve": "^16.0.1",

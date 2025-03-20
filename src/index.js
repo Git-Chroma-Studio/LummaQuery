@@ -19,7 +19,7 @@
          * @returns {string} ID do elemento.
          */
         id: function () {
-            return $(this).get(0).id;
+            return this.get(0).id;
         },
 
         /**
@@ -114,7 +114,7 @@
          */
         toggleAttr: function (attr, value1, value2) {
             return this.each(function () {
-                var $el = $(this);
+                var $el = this;
                 if ($el.attr(attr) === value1) {
                     $el.attr(attr, value2);
                 } else {
