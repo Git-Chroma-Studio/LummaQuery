@@ -1,6 +1,6 @@
 {
   "name": "@chroma-studio/lummaquery",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Uma biblioteca que estende as funcionalidades do jQuery com novos métodos personalizados para manipulação de elementos HTML. Com LummaQuery, você pode facilmente alternar atributos, verificar a existência de elementos, serializar formulários em JSON e muito mais, tornando o desenvolvimento com jQuery ainda mais prático e eficiente.",
   "license": "AGPL-3.0",
   "main": "dist/index.cjs.js",
