@@ -1,9 +1,16 @@
-/**
- * Extensões personalizadas para jQuery
- */
-(function ($) {
-
-    "use strict";
+(function (factory) {
+    if (typeof define === "function" && define.amd) {
+        // AMD (RequireJS)
+        define(["jquery"], factory);
+    } else if (typeof module === "object" && module.exports) {
+        // CommonJS/ESM (Node.js, Webpack, etc.)
+        const jQuery = require("jquery");
+        module.exports = factory(jQuery);
+    } else {
+        // Browser global
+        factory(window.jQuery);
+    }
+})(function ($) {
 
     $.fn.extend({
 
@@ -150,4 +157,6 @@
         }
 
     });
-})(jQuery);
+
+    return $;
+});
